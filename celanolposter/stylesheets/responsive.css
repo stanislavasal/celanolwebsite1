@@ -1,0 +1,74 @@
+@media only screen and (min-device-width: 316px) and (max-device-width: 480px) and (orientation: portrait) {
+
+  p {
+    font-size: 14px;
+    line-height: 15px;
+  }
+
+  .Box1 {
+    margin-top: 2vh;
+  }
+
+  .Box3 {
+    height: 200px;
+    margin-top: -5vh;
+    margin-bottom: 5vh;
+  }
+
+  .Box234{
+    margin-top: 8vh;
+  }
+
+  .Picture1,
+  .Picture11,
+  .Picture2,
+  .Picture21,
+  .Picture3,
+  .Picture31,
+  .PictureBigСircle,
+  .Taum12 {
+    transform: scale(1.05);
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .Picture1,
+  .Picture11,
+  .Picture2,
+  .Picture21,
+  .Picture3,
+  .Picture31,
+  .PictureBigСircle,
+  .Taum12 {
+    transform: scale(1.05);
+  }
+
+  .Box3 {
+    margin-top: -7vw;
+    margin-left: 5vw;
+    transform: scale(0.9);
+  }
+}
+
+@media only screen and (min-device-width: 1025px) {
+
+  .Picture1,
+  .Picture11,
+  .Picture2,
+  .Picture21,
+  .Picture3,
+  .Picture31,
+  .PictureBigСircle {
+    transform: scale(0.85);
+  }
+
+  .Taum12 {
+    transform: scale(1.05);
+  }
+
+  .Box3 {
+    margin-top: -12vw;
+    margin-left: 9vw;
+    transform: scale(0.80);
+  }
+}

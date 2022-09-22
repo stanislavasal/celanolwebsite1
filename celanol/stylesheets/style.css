@@ -1,0 +1,9 @@
+@import "reset.css";
+@import "content.css";
+@import "responsive.css";
+@font-face {
+  font-family: "mr_NorwesterG";
+  src: url("Norwester/mr_NorwesterG.otf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}

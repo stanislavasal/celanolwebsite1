@@ -1,0 +1,7 @@
+@import "reset.css";
+@import "content2.css";
+@import "responsive2.css";
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url(../font/HelveticaNeueCyr-Roman.ttf);
+}

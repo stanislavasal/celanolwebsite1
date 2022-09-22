@@ -1,0 +1,609 @@
+h1 {
+  font-family: "Inter";
+  font-weight: 400;
+  color: #2D9CE5;
+  font-size: 14vw;
+  line-height: 14vw;
+  letter-spacing: -0.06em;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+p {
+  font-family: "Inter";
+  font-weight: 400;
+  color: #2D9CE5;
+  font-size: 3vw;
+  line-height: 3vw;
+  letter-spacing: -0.06em;
+  text-align: center;
+}
+
+/* @celanol.shop + celanol.ru */
+
+.Box1 {
+  display: flex;
+
+  margin-top: 2vw;
+}
+
+.Box1 p {
+  width: 50vw;
+}
+
+/* масштабное открытие */
+
+.Title {
+  margin-top:3vw;
+}
+
+/* 10/ + Второй Магазин оптики «Целаноль» + 05/ */
+
+.Box2 {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 1vw;
+}
+
+.Box2 div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Box2 h1,
+.Box2 p {
+  width: 50vw;
+}
+
+.Box2 h1:nth-child(1) {
+  text-align:left;
+  margin-left: 4vw;
+}
+
+/* рисунок + кнопки */
+
+.Box3 {
+  height: 50vw;
+  /* flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end; */
+}
+
+
+.BoxPlay{
+  position: absolute;
+  width: 7.92vw;
+  height: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-left: 78.5vw;
+}
+
+.BoxPlay1{
+  position: absolute;
+  width: 7.92vw;
+  height: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-left: 78.5vw;
+}
+
+.BoxPlayContent1{
+  opacity: 0;
+  height: 7.92vw;
+  width: 7.92vw;
+  margin-bottom: 1.5vw;
+  transition: cubic-bezier(.51,.06,.78,.36), 0.25s;
+}
+
+.BoxPlayContent1:hover{
+  transform: scale(1.1);
+}
+
+.BoxPlayContent2{
+  opacity: 0;
+  height: 7.92vw;
+  width: 7.92vw;
+  margin-bottom: 1.5vw;
+  transition: cubic-bezier(.51,.06,.78,.36), 0.25s;
+}
+
+.BoxPlayContent2:hover{
+  transform: scale(1.1);
+  /* transition: cubic-bezier(.51,.06,.78,.36), 0.25s; */
+}
+
+.BoxPlayContent3{
+  opacity: 0;
+  height: 7.92vw;
+  width: 7.92vw;
+  margin-bottom: 2vw;
+  transition: cubic-bezier(.51,.06,.78,.36), 0.25s;
+}
+
+.BoxPlayContent3:hover{
+  transform: scale(1.1);
+}
+
+.BoxPlayContent11{
+  opacity: 0;
+  height: 7.92vw;
+  width: 7.92vw;
+  margin-bottom: 1.5vw;
+}
+
+.BoxPlayContent21{
+  opacity: 0;
+  height: 7.92vw;
+  width: 7.92vw;
+  margin-bottom: 1.5vw;
+}
+
+
+
+.BoxPlayContent31{
+  opacity: 0;
+  height: 7.92vw;
+  width: 7.92vw;
+  margin-bottom: 2vw;
+
+}
+
+
+
+.play{
+  height: 7.92vw;
+  width: 7.92vw;
+}
+
+.stop{
+  height: 7.92vw;
+  width: 7.92vw;
+}
+
+
+.BoxKnopka{
+  position: absolute;
+  width: 7.92vw;
+  height: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-left: 88.5vw;
+}
+
+.BoxKnopka1{
+  position: absolute;
+  width: 7.92vw;
+  height: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-left: 88.5vw;
+}
+
+
+.BoxKnopkaContentStrelka{
+  height: 7.91vw;
+  width: 7.91vw;
+  margin-bottom: 1.5vw;
+  transition: cubic-bezier(.51,.06,.78,.36), 0.25s;
+}
+
+.BoxKnopkaContentStrelka:hover{
+  transform: scale(1.1);
+}
+
+.strelka{
+  height: 7.91vw;
+  width: 7.91vw;
+}
+
+.BoxKnopkaContent1{
+  height: 7.92vw;
+  width: 7.92vw;
+  margin-bottom: 1.5vw;
+  transition: cubic-bezier(.51,.06,.78,.36), 0.25s;
+}
+
+.BoxKnopkaContent1:hover{
+  transform: scale(1.1);
+}
+
+.BoxKnopkaContent2{
+  height: 7.92vw;
+  width: 7.92vw;
+  margin-bottom: 1.5vw;
+  transition: cubic-bezier(.51,.06,.78,.36), 0.25s;
+}
+
+.BoxKnopkaContent2:hover{
+  transform: scale(1.1);
+}
+
+.BoxKnopkaContent3{
+  height: 7.92vw;
+  width: 7.92vw;
+  margin-bottom: 2vw;
+  transition: cubic-bezier(.51,.06,.78,.36), 0.25s;
+}
+
+.BoxKnopkaContent3:hover{
+  transform: scale(1.1);
+}
+
+.BoxKnopkaContent11{
+  height: 7.92vw;
+  width: 7.92vw;
+  margin-bottom: 1.5vw;
+}
+
+.BoxKnopkaContent21{
+  height: 7.92vw;
+  width: 7.92vw;
+  margin-bottom: 1.5vw;
+}
+
+.BoxKnopkaContent31{
+  height: 7.92vw;
+  width: 7.92vw;
+  margin-bottom: 2vw;
+}
+
+.knopka{
+  height: 7.92vw;
+  width: 7.92vw;
+}
+
+.Picture1{
+  opacity: 0;
+  position: absolute;
+  /* width: 80vw; */
+}
+
+.Picture2{
+  opacity: 0;
+  position: absolute;
+  /* width: 80vw; */
+}
+
+.Picture3{
+  opacity: 0;
+  position: absolute;
+  /* width: 80vw; */
+}
+
+.Picture31{
+  opacity: 0;
+  position: absolute;
+  /* width: 80vw; */
+}
+
+.Picture21{
+  opacity: 0;
+  position: absolute;
+  /* width: 80vw; */
+}
+
+.Picture11{
+  opacity: 0;
+  position: absolute;
+  /* width: 80vw; */
+}
+
+.PictureBigСircle{
+  position: absolute;
+  padding-left: 6vw;
+  padding-top: 20vw;
+  /* width: 80vw; */
+}
+
+.bc1.active{
+  animation: Big .01s cubic-bezier(1,-0.43, 0, 1.85) infinite;
+}
+/* .0021752s  */
+
+.bc2.active{
+  animation: Big .01s cubic-bezier(1,-0.43, 0, 1.85) infinite;
+}
+
+.bc3.active{
+  animation: Big .01s cubic-bezier(1,-0.43, 0, 1.85) infinite;
+}
+
+@keyframes Big {
+from { transform:rotate(0deg); } to { transform:rotate(360deg); }
+}
+
+.Taum12{
+  position: absolute;
+  margin-top: -37vw;
+  margin-left: 10vw;
+  transform: scale(1.1);
+}
+
+.Taun12.active{
+  opacity:0;
+}
+
+.t1{
+  opacity: 0;
+  width: 46.37vw;
+  position: absolute;
+}
+
+.t2{
+  opacity: 0;
+  width: 46.37vw;
+  position: absolute;
+}
+
+.t3{
+  opacity: 0;
+  width: 46.37vw;
+  position: absolute;
+}
+
+.t11{
+  opacity: 0;
+  width: 46.37vw;
+  position: absolute;
+}
+
+.t21{
+  opacity: 0;
+  width: 46.37vw;
+  position: absolute;
+}
+
+.t31{
+  opacity: 0;
+  width: 46.37vw;
+  position: absolute;
+}
+
+.t1.active{
+  opacity: 100%;
+  animation: t1 4s infinite;
+}
+
+.t11.active{
+  opacity: 100%;
+  animation: t2 4s infinite;
+}
+
+.t2.active{
+  opacity: 100%;
+  animation: t1 4s infinite;
+}
+
+.t21.active{
+  opacity: 100%;
+  animation: t2 4s infinite;
+}
+
+.t3.active{
+  opacity: 100%;
+  animation: t1 4s infinite;
+}
+
+.t31.active{
+  opacity: 100%;
+  animation: t2 4s infinite;
+}
+
+@keyframes t1 {
+  0% {opacity: 100%;}
+  10% {opacity: 0%;}
+  20% {opacity: 100%;}
+  30% {opacity: 0%;}
+  35% {opacity: 100%;}
+  40% {opacity: 0%;}
+  45% {opacity: 100%;}
+  50% {opacity: 0%;}
+  54% {opacity: 100%;}
+  58% {opacity: 0%;}
+  62% {opacity: 100%;}
+  66% {opacity: 0%;}
+  69% {opacity: 100%;}
+  72% {opacity: 0%;}
+  75% {opacity: 100%;}
+  76% {opacity: 0%;}
+  77% {opacity: 100%;}
+  78% {opacity: 0%;}
+  79% {opacity: 100%;}
+  80% {opacity: 0%;}
+  81% {opacity: 100%;}
+  82% {opacity: 0%;}
+  83% {opacity: 100%;}
+  84% {opacity: 0%;}
+  85% {opacity: 100%;}
+  86% {opacity: 0%;}
+  87% {opacity: 100%;}
+  88% {opacity: 0%;}
+  89% {opacity: 100%;}
+  90% {opacity: 0%;}
+  91% {opacity: 100%;}
+  93% {opacity: 0%;}
+  94% {opacity: 100%;}
+  95% {opacity: 0%;}
+  96% {opacity: 100%;}
+  97% {opacity: 0%;}
+  98% {opacity: 100%;}
+  99% {opacity: 0%;}
+  100% {opacity: 100%;}
+
+
+}
+
+@keyframes t2 {
+  0% {opacity: 0%;}
+  10% {opacity: 100%;}
+  20% {opacity: 0%;}
+  30% {opacity: 100%;}
+  35% {opacity: 0%;}
+  40% {opacity: 100%;}
+  45% {opacity: 0%;}
+  50% {opacity: 100%;}
+  54% {opacity: 0%;}
+  58% {opacity: 100%;}
+  62% {opacity: 0%;}
+  66% {opacity: 100%;}
+  69% {opacity: 0%;}
+  72% {opacity: 100%;}
+  75% {opacity: 0%;}
+  76% {opacity: 100%;}
+  77% {opacity: 0%;}
+  78% {opacity: 100%;}
+  79% {opacity: 0%;}
+  80% {opacity: 100%;}
+  81% {opacity: 0%;}
+  82% {opacity: 100%;}
+  83% {opacity: 0%;}
+  84% {opacity: 100%;}
+  85% {opacity: 0%;}
+  86% {opacity: 100%;}
+  87% {opacity: 0%;}
+  88% {opacity: 100%;}
+  89% {opacity: 0%;}
+  90% {opacity: 100%;}
+  91% {opacity: 0%;}
+  93% {opacity: 100%;}
+  94% {opacity: 0%;}
+  95% {opacity: 100%;}
+  96% {opacity: 0%;}
+  97% {opacity: 100%;}
+  98% {opacity: 0%;}
+  99% {opacity: 100%;}
+  100% {opacity: 0%;}
+}
+
+.bc1{
+ opacity: 0;
+ position: absolute;
+ width: 56vw;
+}
+
+.bc2{
+ opacity: 0;
+ position: absolute;
+ width: 56vw;
+}
+
+.bc3{
+ opacity: 0;
+ position: absolute;
+ width: 56vw;
+}
+
+.first{
+  position: absolute;
+}
+
+.fishes{
+  padding-top: 10vw;
+  width: 80vw;
+  margin-left: -0.7vw;
+  transform: scale(0.96);
+}
+
+.fishes2{
+  padding-top: 3vw;
+  width: 65.48vw;
+  padding-left: 7vw;
+  transform: scale(1.05);
+}
+
+.cin3{
+  padding-top: 3vw;
+  width: 68.79vw;
+  margin-left: -140.5vw;
+  transform: scale(1.05);
+}
+
+.flower{
+  padding-top: 12vw;
+  margin-left: 6vw;
+  width: 60vw;
+  transform: scale(0.92);
+}
+
+.flower2{
+  padding-top: -5vw;
+  margin-left: 9vw;
+  width: 54.67vw;
+  /* transform: scale(0.92); */
+}
+
+.cin2{
+  padding-top: -5vw;
+  width: 113.82vw;
+  margin-left: -174.5vw;
+  /* transform: scale(1.05); */
+}
+
+.butterflies{
+  padding-top: 21vw;
+  margin-left: 9vw;
+  width: 60vw;
+  transform: scale(1.15);
+}
+
+.butterflies2{
+  padding-top: 2vw;
+  margin-left: 12vw;
+  width: 55.5vw;
+  transform: scale(1.13);
+}
+
+.cin1{
+  padding-top: 2vw;
+  width: 100.2vw;
+  margin-left: -171.5vw;
+  transform: scale(1.13);
+}
+
+.Box4 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3vw;
+}
+
+.Box4 div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.Box4 h1,
+.Box4 p {
+  width: 50vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */

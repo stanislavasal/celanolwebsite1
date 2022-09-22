@@ -1,0 +1,142 @@
+/* див для меню */
+.menu{
+  display: flex;
+  justify-content: space-between;
+  width: 96.5vw;
+  margin-left: 1.75vw;
+  margin-top: 1.75vw;
+  margin-bottom: 1.75vw;
+}
+
+/* стили текста у меню */
+a{
+  font-family: "HelveticaNeue";
+  font-size: 1.4vw;
+  color: #2D9CE5;
+  transition: 0.4s;
+}
+
+a:hover{
+  opacity: 45%;
+}
+
+/* глаз из меню */
+.menueye{
+  width: 3.6vw;
+  margin-top: -0.6vw;
+  transition: 0.4s;
+}
+
+.menueye:hover{
+  opacity: 45%;
+}
+
+/* товары */
+.content{
+  display: flex;
+  flex-direction: column;
+  width: 96.5vw;
+  height: 71vw;
+  margin-left: 1.75vw;
+  margin-bottom: 2.5vw;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.box1{
+  display: flex;
+  justify-content: space-between;
+  width: 96.5vw;
+}
+
+.box2{
+  display: flex;
+  justify-content: space-between;
+  width: 96.5vw;
+}
+
+/* картинки */
+.img32{
+  width: 31vw;
+  transition: all .3s ease-in-out;
+}
+
+.img32:hover{
+  transform: scale(1.03);
+}
+
+.img33{
+  width: 31vw;
+  transition: all .3s ease-in-out;
+}
+
+.img33:hover{
+  transform: scale(1.03);
+}
+
+.img34{
+  width: 31vw;
+  transition: all .3s ease-in-out;
+}
+
+.img34:hover{
+  transform: scale(1.03);
+}
+
+.img35{
+  width: 31vw;
+  transition: all .3s ease-in-out;
+}
+
+.img35:hover{
+  transform: scale(1.03);
+}
+
+.img36{
+  width: 31vw;
+  transition: all .3s ease-in-out;
+}
+
+.img36:hover{
+  transform: scale(1.03);
+}
+
+.img37{
+  width: 31vw;
+  transition: all .3s ease-in-out;
+}
+
+.img37:hover{
+  transform: scale(1.03);
+}
+
+/* промо */
+.promo{
+  display: flex;
+  justify-content: center;
+  width: 96.5vw;
+}
+
+.img38{
+  height: 3.63vw;
+  transition: all .3s ease-in-out;
+}
+
+.img38:hover{
+  transform: scale(1.1);
+}
+p77 {
+  font-family: "HelveticaNeue";
+  color: #2D9CE5;
+  font-size: 3.64vw;
+}
+
+.please{
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 96.5vw;
+  height: 58vw;
+  margin-left: 1.75vw;
+  margin-bottom: 1.75vw;
+}

@@ -1,0 +1,181 @@
+/* див для меню */
+.menu{
+  display: flex;
+  justify-content: space-between;
+  width: 96.5vw;
+  margin-left: 1.75vw;
+  margin-top: 1.75vw;
+  margin-bottom: 1.75vw;
+}
+
+/* стили текста у меню */
+a{
+  font-family: "HelveticaNeue";
+  font-size: 1.4vw;
+  color: #2D9CE5;
+  transition: 0.4s;
+}
+
+a:hover{
+  opacity: 45%;
+}
+
+/* глаз из меню */
+.menueye{
+  width: 3.6vw;
+  margin-top: -0.6vw;
+  transition: 0.4s;
+}
+
+.menueye:hover{
+  opacity: 45%;
+}
+
+/* див для контента */
+.content1{
+  display: none;
+  width: 96.5vw;
+  height: 58vw;
+  /* display: flex; */
+  margin-left: 1.75vw;
+  margin-bottom: 1.75vw;
+}
+
+/* картинка 1 */
+.img1{
+  height: 58vw;
+  border-radius: 3.5vw;
+}
+
+/* дивы для текста и текст */
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 8vw;
+  padding-left: 1.39vw;
+}
+
+.text1{
+  width: 47.5vw;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+p1{
+  font-family: "HelveticaNeue";
+  font-size: 4.86vw;
+  line-height: 5.6vw;
+  color: #2D9CE5;
+}
+
+p2{
+  font-family: "HelveticaNeue";
+  font-size: 1.73vw;
+  line-height: 2vw;
+  color: #2D9CE5;
+}
+
+p3{
+  font-family: "HelveticaNeue";
+  font-size: 1.73vw;
+  line-height: 2vw;
+  color: #2D9CE5;
+  margin-left: -16vw;
+}
+
+/* картинка 3 */
+.img3{
+  width: 5.42vw;
+  right: 3.1vw;
+  padding-right: 1.39vw;
+}
+
+/* картинка, которая закроется */
+.content2{
+  width: 96.5vw;
+  height: 58vw;
+  margin-left: 1.75vw;
+  margin-bottom: 1.75vw;
+}
+
+.img2{
+  position: absolute;
+  width: 96.5vw;
+  height: 58vw;
+  border-radius: 3.5vw;
+}
+
+.img4{
+  width: 5.69vw;
+  margin-top: 3vw;
+  margin-left: 3vw;
+  transition: all .3s ease-in-out;
+}
+
+.img4:hover{
+  transform: scale(1.1);
+}
+
+.box{
+  position: absolute;
+  width: 96.5vw;
+  height: 58vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box1{
+  height:17vw;
+  width: 96.5vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.box2{
+  display: flex;
+}
+
+.box3{
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 4vw;
+}
+
+/* стили текста */
+p4{
+  font-family: "HelveticaNeue";
+  font-size: 2vw;
+  line-height: 2.77vw;
+  color: white;
+  margin-top: 3vw;
+  margin-right: 5vw;
+}
+
+p5{
+  font-family: "HelveticaNeue";
+  font-size: 7.6vw;
+  line-height: 9vw;
+  color: white;
+  margin-left: 12.2vw;
+  margin-bottom: 1.5vw;
+}
+
+p77 {
+  font-family: "HelveticaNeue";
+  color: #2D9CE5;
+  font-size: 3.64vw;
+}
+
+.please{
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 96.5vw;
+  height: 58vw;
+  margin-left: 1.75vw;
+  margin-bottom: 1.75vw;
+}

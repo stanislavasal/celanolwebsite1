@@ -1,0 +1,204 @@
+/* див для меню */
+.menu{
+  display: flex;
+  justify-content: space-between;
+  width: 96.5vw;
+  margin-left: 1.75vw;
+  margin-top: 1.75vw;
+  margin-bottom: 1.75vw;
+}
+
+/* стили текста у меню */
+a{
+  font-family: "HelveticaNeue";
+  font-size: 1.4vw;
+  color: #2D9CE5;
+  transition: 0.4s;
+}
+
+a:hover{
+  opacity: 45%;
+}
+
+/* глаз из меню */
+.menueye{
+  width: 3.6vw;
+  margin-top: -0.6vw;
+  transition: 0.4s;
+}
+
+.menueye:hover{
+  opacity: 45%;
+}
+
+/* див для листалки */
+
+.content1{
+  display: none;
+  align-items: flex-end;
+  width: 96.5vw;
+  height: 58vw;
+  margin-left: 1.75vw;
+  margin-bottom: 1.75vw;
+}
+
+/* картинки и кнопки листалки */
+.img5{
+  width: 96.5vw;
+  height: 58vw;
+  border-radius: 3.5vw;
+}
+
+.img6{
+  display: none;
+  width: 96.5vw;
+  height: 58vw;
+  border-radius: 3.5vw;
+}
+
+.img7{
+  display: none;
+  width: 96.5vw;
+  height: 58vw;
+  border-radius: 3.5vw;
+}
+
+.img8{
+  display: none;
+  width: 96.5vw;
+  height: 58vw;
+  border-radius: 3.5vw;
+}
+
+.img9{
+  display: none;
+  width: 96.5vw;
+  height: 58vw;
+  border-radius: 3.5vw;
+}
+
+.img10{
+  display: none;
+  width: 96.5vw;
+  height: 58vw;
+  border-radius: 3.5vw;
+}
+
+.img13{
+  width: 96.5vw;
+  height: 58vw;
+  border-radius: 3.5vw;
+}
+
+/* кнопки листалки */
+.box1{
+  position: absolute;
+  display: flex;
+  width: 96.5vw;
+  justify-content: flex-end;
+  padding-bottom: 3vw;
+}
+
+.img11{
+  margin-right: 1.5vw;
+  transition: all .3s ease-in-out;
+}
+
+.img11:hover{
+  transform: scale(1.1);
+}
+
+.img12{
+  margin-right: 3vw;
+  transition: all .3s ease-in-out;
+}
+
+.img12:hover{
+  transform: scale(1.1);
+}
+
+/* классы для скрипта */
+.yes{
+  display: block;
+}
+.no{
+  display: none;
+}
+
+/* картинка, которая закроется */
+.content{
+  display: flex;
+  width: 96.5vw;
+  height: 58vw;
+  margin-left: 1.75vw;
+  margin-bottom: 1.75vw;
+}
+
+.box{
+  position: absolute;
+  width: 96.5vw;
+  height: 58vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box2{
+  display: flex;
+  width: 96.5vw;
+}
+
+.box3{
+  display: flex;
+  width: 96.5vw;
+  padding-bottom: 3vw;
+}
+
+.box4{
+  height: 35vw;
+  display: flex;
+  width: 96.5vw;
+}
+
+.img14{
+  width: 5.42vw;
+  transition: all .3s ease-in-out;
+  margin-left: 3vw;
+  margin-top: 3vw;
+}
+
+.img14:hover{
+  transform: scale(1.1);
+}
+
+p1{
+  font-family: "HelveticaNeue";
+  color: white;
+  font-size: 7.64vw;
+  line-height: 9vw;
+  margin-left: 11.5vw;
+}
+
+p2{
+  font-family: "HelveticaNeue";
+  color: white;
+  font-size: 2vw;
+  line-height: 2.77vw;
+  padding-left: 30vw;
+}
+
+p77 {
+  font-family: "HelveticaNeue";
+  color: #2D9CE5;
+  font-size: 3.64vw;
+}
+
+.please{
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 96.5vw;
+  height: 58vw;
+  margin-left: 1.75vw;
+  margin-bottom: 1.75vw;
+}

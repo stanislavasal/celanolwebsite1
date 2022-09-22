@@ -1,0 +1,120 @@
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .content1{
+    position: absolute;
+    bottom: 0;
+  }
+  .content{
+    position: absolute;
+    bottom: 0;
+  }
+  .content2{
+    position: absolute;
+    bottom: 0;
+  }
+  .content3{
+    position: absolute;
+    bottom: 0;
+  }
+  .content4{
+    position: absolute;
+    bottom: 0;
+  }
+  .image{
+    position: absolute;
+    bottom: 0;
+  }
+  .image1{
+    position: absolute;
+    bottom: 0;
+  }
+  .image2{
+    position: absolute;
+    bottom: 0;
+  }
+  .image3{
+    position: absolute;
+    bottom: 0;
+  }
+  .image4{
+    position: absolute;
+    bottom: 0;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+/* iPad Portrait */
+.content1{
+  display:none;
+}
+.content{
+  display:none;
+}
+.content2{
+  display:none;
+}
+.content3{
+  display:none;
+}
+.content4{
+  display:none;
+}
+.image{
+  display:none;
+}
+.image1{
+  display:none;
+}
+.image2{
+  display:none;
+}
+.image3{
+  display:none;
+}
+.image4{
+  display:none;
+}
+.please{
+  display: flex;
+  position: absolute;
+  bottom: 0;
+}
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+/* iPhone Portrait */
+.content1{
+  display:none;
+}
+.content{
+  display:none;
+}
+.content2{
+  display:none;
+}
+.content3{
+  display:none;
+}
+.content4{
+  display:none;
+}
+.image{
+  display:none;
+}
+.image1{
+  display:none;
+}
+.image2{
+  display:none;
+}
+.image3{
+  display:none;
+}
+.image4{
+  display:none;
+}
+.please{
+  display: flex;
+  position: absolute;
+  bottom: 0;
+}
+}

@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <title></title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+  </head>
+
+  <body>
+    <script>
+    $(document).ready(function(){
+      $( function() {
+        $( '.cin3' ).draggable();
+        $( '.cin2' ).draggable();
+        $( '.cin1' ).draggable();
+    } );
+            });
+    </script>
+    <script>
+    $(document).ready(function(){
+      $('.BoxKnopkaContent1').click(function() {
+            $('.BoxKnopkaContentStrelka').css("display", "flex");
+            $('.BoxKnopkaContent1').addClass("okey");
+            $('.BoxKnopkaContent2').removeClass("okey");
+            $('.BoxKnopkaContent3').removeClass("okey");
+            $('.BoxKnopkaContent1').css("opacity", "0");
+            $('.BoxKnopkaContent2').css("opacity", "100%");
+            $('.BoxKnopkaContent3').css("opacity", "100%");
+            $('.BoxPlayContent1').css("opacity", "100%");
+            $('.BoxPlayContent2').css("opacity", "0");
+            $('.BoxPlayContent3').css("opacity", "0");
+            $('.BoxPlayContent11').css("opacity", "0");
+            $('.BoxPlayContent21').css("opacity", "0");
+            $('.BoxPlayContent31').css("opacity", "0");
+            $('.Picture3').css("opacity", "100%");
+            $('.Picture1').css("opacity", "0");
+            $('.Picture11').css("opacity", "0");
+            $('.Picture2').css("opacity", "0");
+            $('.Picture21').css("opacity", "0");
+            $('.Picture31').css("opacity", "0");
+            $('.bc1').css("opacity", "0");
+            $('.bc2').css("opacity", "0");
+            $('.bc3').css("opacity", "0");
+            $('.Picture3').addClass("first");
+            $('.Picture1').css("z-index", "0");
+            $('.Picture11').css("z-index", "0");
+            $('.Picture2').css("z-index", "0");
+            $('.Picture21').css("z-index", "0");
+            $('.Picture3').css("z-index", "0");
+            $('.Picture31').css("z-index", "0");
+            $('.t1').css("opacity", "0");
+            $('.t11').css("opacity", "0");
+            $('.t2').css("opacity", "0");
+            $('.t21').css("opacity", "0");
+            $('.t3').css("opacity", "0");
+            $('.t31').css("opacity", "0");
+            $('.t11').removeClass("active");
+            $('.t2').removeClass("active");
+            $('.t21').removeClass("active");
+            $('.t3').removeClass("active");
+            $('.t31').removeClass("active");
+            $('.t1').removeClass("active");
+
+            });
+            });
+  </script>
+  <script>
+   $(document).ready(function(){
+     $('.BoxKnopkaContent2').click(function() {
+       $('.BoxKnopkaContentStrelka').css("display", "flex");
+           $('.BoxKnopkaContent2').addClass("okey");
+           $('.BoxKnopkaContent1').removeClass("okey");
+           $('.BoxKnopkaContent3').removeClass("okey");
+           $('.BoxKnopkaContent2').css("opacity", "0");
+           $('.BoxKnopkaContent1').css("opacity", "100%");
+           $('.BoxKnopkaContent3').css("opacity", "100%");
+           $('.BoxPlayContent1').css("opacity", "0");
+           $('.BoxPlayContent2').css("opacity", "100%");
+           $('.BoxPlayContent3').css("opacity", "0");
+           $('.BoxPlayContent11').css("opacity", "0");
+           $('.BoxPlayContent21').css("opacity", "0");
+           $('.BoxPlayContent31').css("opacity", "0");
+           $('.Picture1').css("opacity", "0");
+           $('.Picture11').css("opacity", "0");
+           $('.Picture2').css("opacity", "0");
+           $('.Picture21').css("opacity", "0");
+           $('.Picture3').css("opacity", "0");
+           $('.Picture31').css("opacity", "0");
+           $('.Picture1').css("z-index", "-3");
+           $('.Picture11').css("z-index", "-3");
+           $('.Picture2').css("z-index", "-3");
+           $('.Picture21').css("z-index", "-3");
+           $('.Picture3').css("z-index", "-3");
+           $('.Picture31').css("z-index", "-3");
+           $('.t1').css("opacity", "0");
+           $('.t11').css("opacity", "0");
+           $('.t2').css("opacity", "0");
+           $('.t21').css("opacity", "0");
+           $('.t3').css("opacity", "0");
+           $('.t31').css("opacity", "0");
+           $('.bc1').css("opacity", "100%");
+           $('.bc1').removeClass("active");
+           $('.bc2').removeClass("active");
+           $('.bc3').removeClass("active");
+           $('.bc2').css("opacity", "0");
+           $('.bc3').css("opacity", "0");
+           $('.bc1').addClass("second");
+           $('.t11').removeClass("active");
+           $('.t2').removeClass("active");
+           $('.t21').removeClass("active");
+           $('.t3').removeClass("active");
+           $('.t31').removeClass("active");
+           $('.t1').removeClass("active");
+           });
+           });
+  </script>
+  <script>
+  $(document).ready(function(){
+    $('.BoxKnopkaContent3').click(function() {
+      $('.BoxKnopkaContentStrelka').css("display", "flex");
+          $('.BoxKnopkaContent3').addClass("okey");
+          $('.BoxKnopkaContent2').removeClass("okey");
+          $('.BoxKnopkaContent1').removeClass("okey");
+          $('.BoxKnopkaContent3').css("opacity", "0");
+          $('.BoxKnopkaContent2').css("opacity", "100%");
+          $('.BoxKnopkaContent1').css("opacity", "100%");
+          $('.BoxPlayContent1').css("opacity", "0");
+          $('.BoxPlayContent2').css("opacity", "0");
+          $('.BoxPlayContent3').css("opacity", "100%");
+          $('.BoxPlayContent11').css("opacity", "0");
+          $('.BoxPlayContent21').css("opacity", "0");
+          $('.BoxPlayContent31').css("opacity", "0");
+          $('.Picture1').css("opacity", "0");
+          $('.Picture11').css("opacity", "0");
+          $('.Picture2').css("opacity", "0");
+          $('.Picture21').css("opacity", "0");
+          $('.Picture3').css("opacity", "0");
+          $('.Picture31').css("opacity", "0");
+          $('.Picture1').css("z-index", "-3");
+          $('.Picture11').css("z-index", "-3");
+          $('.Picture2').css("z-index", "-3");
+          $('.Picture21').css("z-index", "-3");
+          $('.Picture3').css("z-index", "-3");
+          $('.Picture31').css("z-index", "-3");
+          $('.bc1').css("opacity", "0");
+          $('.bc2').css("opacity", "0");
+          $('.bc3').css("opacity", "0");
+          $('.t1').css("opacity", "100%");
+          $('.t11').css("opacity", "0");
+          $('.t2').css("opacity", "0");
+          $('.t21').css("opacity", "0");
+          $('.t3').css("opacity", "0");
+          $('.t31').css("opacity", "0");
+          $('.t1').addClass("third");
+          $('.t11').removeClass("active");
+          $('.t2').removeClass("active");
+          $('.t21').removeClass("active");
+          $('.t3').removeClass("active");
+          $('.t31').removeClass("active");
+          $('.t1').removeClass("active");
+          });
+          });
+  </script>
+  <script>
+   $(document).ready(function(){
+     $('.BoxPlayContent1').click(function() {
+         $('.BoxKnopkaContent1').css("opacity", "100%");
+         $('.BoxKnopkaContentStrelka').css("display", "none");
+         $('.BoxPlayContent1').css("opacity", "0");
+         $('.BoxPlayContent11').css("opacity", "100%");
+         if ($('.Picture3').hasClass("first")){
+         $('.Picture3').css("opacity", "0");
+         $('.Picture31').css("opacity", "100%");
+         $('.Picture21').css("z-index", "-1");
+         $('.Picture2').css("z-index", "-1");
+         $('.Picture11').css("z-index", "-2");
+         $('.Picture1').css("z-index", "-2");
+         }
+         else if ($('.Picture2').hasClass("first")){
+           $('.Picture2').css("opacity", "0");
+           $('.Picture21').css("opacity", "100%");
+           $('.Picture31').css("z-index", "-1");
+           $('.Picture3').css("z-index", "-1");
+           $('.Picture11').css("z-index", "-2");
+           $('.Picture1').css("z-index", "-2");
+           }
+         else {
+           $('.Picture1').css("opacity", "0");
+           $('.Picture11').css("opacity", "100%");
+           $('.Picture31').css("z-index", "-1");
+           $('.Picture3').css("z-index", "-1");
+           $('.Picture21').css("z-index", "-2");
+           $('.Picture2').css("z-index", "-2");
+           }
+         });
+         });
+  </script>
+  <script>
+  $(document).ready(function(){
+    $('.BoxPlayContent2').click(function() {
+      $('.BoxKnopkaContent2').css("opacity", "100%");
+      $('.BoxKnopkaContentStrelka').css("display", "none");
+        $('.BoxPlayContent2').css("opacity", "0");
+        $('.BoxPlayContent21').css("opacity", "100%");
+        if ($('.bc1').hasClass("second")){
+          $('.bc1').toggleClass('active');
+        }
+        else if ($('.bc2').hasClass("second")){
+          $('.bc2').toggleClass('active');
+          }
+        else {
+          $('.bc3').toggleClass('active');
+          }
+        });
+        });
+  </script>
+  <script>
+  $(document).ready(function(){
+    $('.BoxPlayContent3').click(function() {
+        $('.BoxKnopkaContent3').css("opacity", "100%");
+        $('.BoxKnopkaContentStrelka').css("display", "none");
+        $('.BoxPlayContent3').css("opacity", "0");
+        $('.BoxPlayContent31').css("opacity", "100%");
+        if ($('.t1').hasClass("third")){
+          $('.t1').toggleClass('active');
+          $('.t11').toggleClass('active');
+        }
+        else if ($('.t2').hasClass("third")){
+          $('.t2').toggleClass('active');
+          $('.t21').toggleClass('active');
+          }
+        else {
+          $('.t3').toggleClass('active');
+          $('.t31').toggleClass('active');
+          }
+        });
+        });
+  </script>
+  <script>
+  $(document).ready(function(){
+    $('.BoxKnopkaContentStrelka').click(function() {
+        if ($('.BoxKnopkaContent1').hasClass("okey")){
+        if ($('.Picture3').hasClass("first")){
+        $('.Picture3').css("opacity", "0");
+        $('.Picture2').css("opacity", "100%");
+        $('.Picture3').removeClass("first");
+        $('.Picture2').addClass("first");
+        }
+        else if ($('.Picture2').hasClass("first")){
+          $('.Picture2').css("opacity", "0");
+          $('.Picture1').css("opacity", "100%");
+          $('.Picture2').removeClass("first");
+          }
+        else {
+          $('.Picture3').css("opacity", "100%");
+          $('.Picture1').css("opacity", "0");
+          $('.Picture3').addClass("first");
+          }
+        }
+        else if ($('.BoxKnopkaContent2').hasClass("okey")){
+          if ($('.bc1').hasClass("second")){
+          $('.bc1').css("opacity", "0");
+          $('.bc2').css("opacity", "100%");
+          $('.bc1').removeClass("second");
+          $('.bc2').addClass("second");
+          }
+          else if ($('.bc2').hasClass("second")){
+            $('.bc2').css("opacity", "0");
+            $('.bc3').css("opacity", "100%");
+            $('.bc2').removeClass("second");
+            }
+          else {
+            $('.bc1').css("opacity", "100%");
+            $('.bc3').css("opacity", "0");
+            $('.bc1').addClass("second");
+            }
+        }
+        else if ($('.BoxKnopkaContent3').hasClass("okey")){
+          if ($('.t1').hasClass("third")){
+          $('.t1').css("opacity", "0");
+          $('.t2').css("opacity", "100%");
+          $('.t1').removeClass("third");
+          $('.t2').addClass("third");
+          }
+          else if ($('.t2').hasClass("third")){
+            $('.t2').css("opacity", "0");
+            $('.t3').css("opacity", "100%");
+            $('.t2').removeClass("third");
+            }
+          else {
+            $('.t1').css("opacity", "100%");
+            $('.t3').css("opacity", "0");
+            $('.t1').addClass("third");
+            }
+        }
+        });
+        });
+  </script>
+
+    <div class="Box1">
+      <p>@celanol.shop</p>
+      <p>celanol.ru</p>
+    </div>
+
+    <h1 class="Title">масштабное открытие</h1>
+    <div class="Box234">
+      <div class="Picture1">
+      <img class="butterflies" src="img/butterflies.svg" alt="butterflies">
+      </div>
+      <div class="Picture11">
+        <img class="butterflies2" src="img/butterflies2.svg" alt="butterflies2">
+        <img class="cin1" src="img/cin1.svg" alt="cin1">
+      </div>
+      <div class="Picture2">
+      <img class="flower" src="img/flower.svg" alt="flower">
+      </div>
+      <div class="Picture21">
+        <img class="flower2" src="img/flower2.svg" alt="flower2">
+        <img class="cin2" src="img/cin2.svg" alt="cin2">
+      </div>
+      <div class="Picture3">
+        <img class="fishes" src="img/fishes.svg" alt="fishes">
+      </div>
+      <div class="Picture31">
+        <img class="fishes2" src="img/fishes2.svg" alt="fishes2">
+        <img class="cin3" src="img/cin3.svg" alt="cin3">
+      </div>
+      <div class="PictureBigСircle">
+        <img class="bc1" src="img/bc1.svg" alt="bc1">
+        <img class="bc2" src="img/bc2.svg" alt="bc2">
+        <img class="bc3" src="img/bc3.svg" alt="bc3">
+      </div>
+      <div class="Taum12">
+        <img class="t1" src="img/t1.svg" alt="t1">
+        <img class="t2" src="img/t2.svg" alt="t2">
+        <img class="t3" src="img/t3.svg" alt="t3">
+        <img class="t11" src="img/t11.svg" alt="t11">
+        <img class="t21" src="img/t21.svg" alt="t21">
+        <img class="t31" src="img/t31.svg" alt="t31">
+    </div>
+
+  <div class="Box2">
+      <div class="">
+        <h1>10/</h1>
+        <p>Второй<br>Магазин оптики<br>«Целаноль»</p>
+      </div>
+      <div class="">
+        <h1></h1>
+        <h1>05/</h1>
+      </div>
+    </div>
+    <div class="Box3">
+      <div class = "BoxKnopka1">
+        <div class="BoxKnopkaContent11">
+          <img class="knopka" src="img/knopka11.svg" alt="knopka11">
+        </div>
+        <div class="BoxKnopkaContent21">
+          <img class="knopka" src="img/knopka33.svg" alt="knopka33">
+        </div>
+        <div class="BoxKnopkaContent31">
+          <img class="knopka" src="img/knopka22.svg" alt="knopka22">
+        </div>
+     </div>
+      <div class = "BoxKnopka">
+        <div class="BoxKnopkaContentStrelka">
+          <img class="strelka" src="img/strelka.svg" alt="strelka">
+        </div>
+        <div class="BoxKnopkaContent1">
+          <img class="knopka" src="img/knopka1.svg" alt="knopka1">
+        </div>
+        <div class="BoxKnopkaContent2">
+          <img class="knopka" src="img/knopka2.svg" alt="knopka2">
+        </div>
+        <div class="BoxKnopkaContent3">
+          <img class="knopka" src="img/knopka3.svg" alt="knopka3">
+        </div>
+     </div>
+     <div class = "BoxPlay1">
+       <div class="BoxPlayContent11">
+         <img class="play" src="img/play1.svg" alt="play1">
+       </div>
+       <div class="BoxPlayContent21">
+         <img class="play" src="img/play1.svg" alt="play1">
+       </div>
+       <div class="BoxPlayContent31">
+         <img class="play" src="img/play1.svg" alt="play1">
+       </div>
+     </div>
+     <div class = "BoxPlay">
+       <div class="BoxPlayContent1">
+         <img class="play" src="img/play.svg" alt="play">
+       </div>
+       <div class="BoxPlayContent2">
+         <img class="play" src="img/play.svg" alt="play">
+       </div>
+       <div class="BoxPlayContent3">
+         <img class="play" src="img/play.svg" alt="play">
+       </div>
+     </div>
+   </div>
+    <div class="Box4">
+      <div class="">
+        <h1></h1>
+        <h1>22</h1>
+      </div>
+      <div class="">
+        <p>109097<br>г.Москва/ Улица<br>Ильинка,дом 9 /<br>Вход со стороны<br>Никольского переулка</p>
+        <p>Лаборатория<br>Арт-пространство<br>Флагманский магазин<br>Исследовательский центр</p>
+      </div>
+    </div>
+</div>
+
+
+  </body>
+</html>

@@ -1,0 +1,8 @@
+@import "reset.css";
+@import "content.css";
+@import "responsive.css";
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url(../font/Inter-VariableFont_slnt,wght.ttf);
+}
