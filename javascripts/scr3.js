@@ -115,9 +115,7 @@ $(document).ready(function(){
         $(".content").addClass("no");
         $(".image").addClass("no");
         $(".content4").removeClass("no");
-        $(".image4").removeClass("no");
         $(".content4").addClass("yes");
-        $(".image4").addClass("yes");
       }
       else if ($(".content4").hasClass("yes")){
         $(".content4").removeClass("yes");
@@ -125,9 +123,7 @@ $(document).ready(function(){
         $(".content4").addClass("no");
         $(".image4").addClass("no");
         $(".content3").removeClass("no");
-        $(".image3").removeClass("no");
         $(".content3").addClass("yes");
-        $(".image3").addClass("yes");
       }
       else if ($(".content3").hasClass("yes")){
         $(".content3").removeClass("yes");
@@ -135,9 +131,7 @@ $(document).ready(function(){
         $(".content3").addClass("no");
         $(".image3").addClass("no");
         $(".content2").removeClass("no");
-        $(".image2").removeClass("no");
         $(".content2").addClass("yes");
-        $(".image2").addClass("yes");
       }
       else if ($(".content2").hasClass("yes")){
         $(".content2").removeClass("yes");
@@ -145,9 +139,7 @@ $(document).ready(function(){
         $(".content2").addClass("no");
         $(".image2").addClass("no");
         $(".content1").removeClass("no");
-        $(".image1").removeClass("no");
         $(".content1").addClass("yes");
-        $(".image1").addClass("yes");
       }
       else {
         $(".content1").removeClass("yes");
@@ -155,9 +147,7 @@ $(document).ready(function(){
         $(".content1").addClass("no");
         $(".image1").addClass("no");
         $(".content").removeClass("no");
-        $(".image").removeClass("no");
         $(".content").addClass("yes");
-        $(".image").addClass("yes");
       }
   });
 });
