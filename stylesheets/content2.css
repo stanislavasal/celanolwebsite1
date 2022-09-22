@@ -14,6 +14,7 @@ a{
   font-size: 1.4vw;
   color: #2D9CE5;
   transition: 0.4s;
+  text-decoration: none;
 }
 
 a:hover{
