@@ -1,9 +1,5 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
 
-  .content1 {
-    position: absolute;
-    bottom: 0;
-  }
   a {
     font-family: "HelveticaNeue";
     font-size: 3vw;
@@ -22,7 +18,9 @@
     flex-wrap: wrap;
     flex-direction: row;
   }
+
   .content1 {
+    position: absolute;
     bottom: 0;
     width: 93vw;
     height: 125.5vw;
@@ -111,4 +109,127 @@
     margin-right: 5.5vw;
   }
 
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 428px) and (orientation: portrait) {
+  
+  a {
+    font-family: "HelveticaNeue";
+    font-size: 5vw;
+    color: #2d9ce5;
+    transition: 0.4s;
+    text-decoration: none;
+    margin-right: 5vw;
+  }
+ 
+  .menu {
+    display: flex;
+    width: 86vw;
+    margin: 4vw;
+    padding: 5vw;
+    padding-right: 0;
+    border-radius: 3.5vw;
+    border: solid #2d9ce5 2px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    overflow-x: auto;
+  }
+
+  .menu::-webkit-scrollbar {
+    height: 0;
+    width: 0;
+  }
+  .content1 {
+    position: absolute;
+    width: 93vw;
+    height: 175vw;
+    margin-left: 3.5vw;
+    margin-bottom: 3.5vw;
+  }
+  .content {
+    position: absolute;
+    width: 96.5vw;
+    height: 175vw;
+    margin-left: 3.5vw;
+    margin-bottom: 3.5vw;
+  }
+  .img6,
+  .img7,
+  .img8,
+  .img9,
+  .img10 {
+    width: 93vw;
+    height: 175vw;
+    border-radius: 3.5vw;
+    background-position: left;
+  }
+  .img5,
+  .img13 {
+    width: 93vw;
+    height: 175vw;
+    border-radius: 3.5vw;
+    background-position: center;
+  }
+  p2 {
+    font-size: 4vw;
+    line-height: 6vw;
+    color: white;
+    margin-top: 5vw;
+    padding-bottom: 5.5vw;
+    padding-left: 15vw;
+  }
+  p1 {
+    font-family: "HelveticaNeue";
+    font-size: 9.6vw;
+    line-height: 10.7vw;
+    color: white;
+    margin-left: 5vw;
+    margin-top: 5.5vw;
+  }
+  .box {
+    position: absolute;
+    width: 93vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .box2 {
+    height: auto;
+    padding-top: 3.5vw;
+  }
+  .box3 {
+    height: auto;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+  }
+  .box4 {
+    height: auto;
+    width: 85vw;
+  }
+  .img14 {
+    width: 8vw;
+    margin-top: 3vw;
+    margin-left: 5.5vw;
+    margin-right: 6vw;
+  }
+  .box1 {
+    position: absolute;
+    display: flex;
+    width: 93vw;
+    justify-content: center;
+    padding-bottom: 13vw;
+}
+  .img11 {
+    width: 17vw;
+    padding-right: 3vw;
+  }
+  .img12 {
+    width: 17vw;
+  }
+  .img14 {
+    width: 11vw;
+    margin-top: 3vw;
+    margin-left: 5.5vw;
+    margin-right: 6vw;
+}
 }
