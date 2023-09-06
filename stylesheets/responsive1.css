@@ -1,10 +1,114 @@
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+
   .content1 {
     position: absolute;
     bottom: 0;
   }
+  a {
+    font-family: "HelveticaNeue";
+    font-size: 3vw;
+    color: #2d9ce5;
+    transition: 0.4s;
+    text-decoration: none;
+    margin-bottom: 2vw;
+  }
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    width: 93vw;
+    margin-top: 3.5vw;
+    margin-left: 3.5vw;
+    margin-right: 3.5vw;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .content1 {
+    bottom: 0;
+    width: 93vw;
+    height: 125.5vw;
+    margin-left: 3.5vw;
+    margin-bottom: 3.5vw;
+  }
   .content {
     position: absolute;
-    bottom: 0;
+    width: 96.5vw;
+    height: 125.5vw;
+    margin-left: 3.5vw;
+    margin-bottom: 3.5vw;
   }
+  .img6,
+  .img7,
+  .img8,
+  .img9,
+  .img10 {
+    width: 93vw;
+    height: 125.5vw;
+    border-radius: 3.5vw;
+    background-position: left;
+  }
+  .img5,
+  .img13 {
+    width: 93vw;
+    height: 125.5vw;
+    border-radius: 3.5vw;
+    background-position: center;
+  }
+  p1 {
+    font-family: "HelveticaNeue";
+    font-size: 9vw;
+    line-height: 10.7vw;
+    color: white;
+    margin-left: 6vw;
+    margin-top: 5.5vw;
+  }
+  p2 {
+    font-size: 3vw;
+    line-height: 4vw;
+    color: white;
+    margin-top: 5vw;
+    padding-bottom: 5.5vw;
+    padding-left: 15vw;
+  }
+  .box {
+    position: absolute;
+    width: 93vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .box2 {
+    height: auto;
+    padding-top: 3.5vw;
+  }
+  .box3 {
+    height: auto;
+    padding-top: 2vw;
+  }
+  .box4 {
+    height: auto;
+    width: 83vw;
+  }
+  .img14 {
+    width: 8vw;
+    margin-top: 3vw;
+    margin-left: 5.5vw;
+    margin-right: 6vw;
+  }
+  .box1{
+    position: absolute;
+    display: flex;
+    width: 93vw;
+    justify-content: flex-end;
+    padding-bottom: 6vw;
+  }
+  .img11 {
+    width: 9vw;
+    padding-right: 1vw;
+  }
+  .img12 {
+    width: 9vw;
+    margin-right: 5.5vw;
+  }
+
 }
