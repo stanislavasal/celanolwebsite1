@@ -66,6 +66,10 @@ p1{
 .img15{
   border-radius: 3.5vw;
   height: 50vw;
+  width: 35vw;
+  background-image: url(../img/im15.png);
+  background-size:cover;
+  background-repeat: no-repeat;
 }
 
 .text1{
@@ -119,6 +123,7 @@ p2{
   line-height: 2.64vw;
   margin-bottom: 1.5vw;
   margin-left: -1.5vw;
+  text-transform: uppercase;
 }
 
 p3{

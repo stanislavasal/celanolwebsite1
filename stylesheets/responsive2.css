@@ -1,14 +1,130 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .content1{
     position: absolute;
-    bottom: 0;
+    height: fit-content;
   }
   .content{
     position: absolute;
-    bottom: 0;
+    height: fit-content;
   }
   .content2{
     position: absolute;
-    bottom: 0;
+    height: fit-content;
+  }
+  a {
+    font-family: "HelveticaNeue";
+    font-size: 3vw;
+    color: #2d9ce5;
+    transition: 0.4s;
+    text-decoration: none;
+    margin-bottom: 2vw;
+  }
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    width: 93vw;
+    margin-top: 3.5vw;
+    margin-left: 3.5vw;
+    margin-right: 3.5vw;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  p1 {
+    font-family: "HelveticaNeue";
+    font-size: 8.5vw;
+    line-height: 10.7vw;
+    color: #2d9ce5;
+  }
+  .img15{
+    border-radius: 3.5vw;
+    height: 80vw;
+    width: 55vw;
+  }
+  .yes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .box2 {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 80vw;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 4vw;
+}
+  .text1{
+    width: 35vw;
+    height: fit-content;
+    border: 0;
+  }
+  
+  .text2{
+    width: 35vw;
+    height: fit-content;
+    border: 0;
+    margin: 0;
+  }
+  
+  .text3{
+    width: 35vw;
+    height: fit-content;
+    border: 0;
+    margin: 0;
+  }
+
+  p2{
+    font-family: "HelveticaNeue";
+    color: #2D9CE5;
+    font-size: 3vw;
+    line-height: 3.8vw;
+    text-transform: none;
+    }
+  
+  p3{
+    font-family: "HelveticaNeue";
+    color: #2D9CE5;
+    font-size: 3vw;
+    line-height: 4vw;
+    margin: 0;
+  }
+  .box3 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 93vw;
+    height: 15vw;
+    border: 1px solid #2D9CE5;
+    border-radius: 3.5vw;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 428px) and (orientation: portrait) {
+  a {
+    font-family: "HelveticaNeue";
+    font-size: 5vw;
+    color: #2d9ce5;
+    transition: 0.4s;
+    text-decoration: none;
+    margin-right: 5vw;
+  }
+ 
+  .menu {
+    display: flex;
+    width: 86vw;
+    margin: 4vw;
+    padding: 5vw;
+    padding-right: 0;
+    border-radius: 3.5vw;
+    border: solid #2d9ce5 2px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    overflow-x: auto;
+  }
+
+  .menu::-webkit-scrollbar {
+    height: 0;
+    width: 0;
   }
 }
