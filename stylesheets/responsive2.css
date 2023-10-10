@@ -35,7 +35,9 @@
     line-height: 10.7vw;
     color: #2d9ce5;
   }
-  .img15{
+  .img15,
+  .img16,
+  .img17{
     border-radius: 3.5vw;
     height: 80vw;
     width: 55vw;
@@ -94,13 +96,39 @@
     align-items: center;
     justify-content: space-between;
     width: 93vw;
-    height: 15vw;
-    border: 1px solid #2D9CE5;
+    height: 12vw;
+    border: 2px solid #2D9CE5;
     border-radius: 3.5vw;
+    margin-top: 7vw;
+    padding-left: 3.5vw;
+    padding-right: 3.5vw;
+  }
+  .img18,
+  .img19{
+    width: 8vw;
+    margin: 0;
   }
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 428px) and (orientation: portrait) {
+  .content1{
+    position: absolute;
+    height: fit-content;
+    width: 90vw;
+    margin: 4vw;
+  }
+  .content{
+    position: absolute;
+    height: fit-content;
+    width: 90vw;
+    margin: 4vw;
+  }
+  .content2{
+    position: absolute;
+    height: fit-content;
+    width: 90vw;
+    margin: 4vw;
+  }
   a {
     font-family: "HelveticaNeue";
     font-size: 5vw;
@@ -126,5 +154,90 @@
   .menu::-webkit-scrollbar {
     height: 0;
     width: 0;
+  }
+
+  .box1{
+    width: 90vw;
+  }
+  .yes{
+    display: flex;
+    flex-direction: column;
+  }
+  p1 {
+    font-family: "HelveticaNeue";
+    font-size: 11vw;
+    line-height: 12.5vw;
+  }
+    .img15,
+    .img16,
+    .img17{
+      margin-top: 3vw;
+      width: 90vw;
+      height: 125vw;
+    }
+    .box2 {
+      display: flex;
+      flex-wrap: nowrap;
+      width: 90vw;
+      height: fit-content;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+    .text1{
+      width: 80vw;
+      height: fit-content;
+      border: 0;
+      margin-top: 10vw;
+    }
+    
+    .text2{
+      width: 80vw;
+      height: fit-content;
+      border: 0;
+      margin-top: 5vw;
+      margin-left: 0;
+    }
+    
+    .text3{
+      width: 80vw;
+      height: fit-content;
+      border: 0;
+      margin-top: 5vw;
+      margin-left: 0;
+    }
+    p2{
+      font-family: "HelveticaNeue";
+      color: #2D9CE5;
+      font-size: 4vw;
+      line-height: 6vw;
+      }
+    
+    p3{
+      font-family: "HelveticaNeue";
+      color: #2D9CE5;
+      font-size: 4vw;
+      line-height: 6vw;
+      margin: 0;
+    }
+    .box3 {
+      display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 82vw;
+    height: 25vw;
+    border: 2px solid #2D9CE5;
+    border-radius: 3.5vw;
+    margin: 0;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    margin-top: 10vw;
+
+  }
+  .img18,
+  .img19{
+    width: 17vw;
+    margin: 0;
+
   }
 }

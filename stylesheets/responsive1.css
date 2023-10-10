@@ -138,6 +138,7 @@
     height: 0;
     width: 0;
   }
+  
   .content1 {
     position: absolute;
     width: 93vw;
@@ -207,7 +208,7 @@
     width: 85vw;
   }
   .img14 {
-    width: 8vw;
+    width: 17vw;
     margin-top: 3vw;
     margin-left: 5.5vw;
     margin-right: 6vw;
@@ -226,10 +227,13 @@
   .img12 {
     width: 17vw;
   }
-  .img14 {
-    width: 11vw;
-    margin-top: 3vw;
-    margin-left: 5.5vw;
-    margin-right: 6vw;
-}
+  p1{
+    font-family: "HelveticaNeue";
+    font-size: 10.5vw;
+    line-height: 12.5vw;
+  }
+  p2{
+    font-size: 4vw;
+    line-height: 6vw;
+  }
 }
