@@ -81,6 +81,7 @@
     font-size: 3vw;
     line-height: 3.8vw;
     text-transform: none;
+    margin-left: -1.5vw;
     }
   
   p3{
@@ -211,6 +212,7 @@
       color: #2D9CE5;
       font-size: 4vw;
       line-height: 6vw;
+      margin-left: -1.5vw;
       }
     
     p3{
