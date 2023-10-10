@@ -1,6 +1,144 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+
+  a {
+    font-family: "HelveticaNeue";
+    font-size: 3vw;
+    color: #2d9ce5;
+    transition: 0.4s;
+    text-decoration: none;
+    margin-bottom: 2vw;
+  }
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    width: 93vw;
+    margin-top: 3.5vw;
+    margin-left: 3.5vw;
+    margin-right: 3.5vw;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
   .content{
     position: absolute;
-    bottom: 0;
+    height: fit-content;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    width: 94;
+    margin-top: 2vw;
+    height: 40vw;
   }
+  .content1{
+    position: absolute;
+    height: fit-content;
+    width: 94vw;
+    height: 65vw;
+    margin-top: 36vw;
+  }
+  p1 {
+    font-family: "HelveticaNeue";
+    font-size: 7vw;
+    line-height: 9vw;
+    color: #2d9ce5;
+  }
+
+  input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+width: 70vw;
+}
+
+.img42{
+  width: 8vw;
+  margin: 0;
+  margin-left: 4vw;
+}
+.box1{
+  width: 94vw;
+  height: 20vw;
+}
+.text{
+  height: 45vw;
+}
+  
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 428px) and (orientation: portrait) {
+  
+  
+  a {
+    font-family: "HelveticaNeue";
+    font-size: 5vw;
+    color: #2d9ce5;
+    transition: 0.4s;
+    text-decoration: none;
+    margin-right: 5vw;
+  }
+ 
+  .menu {
+    display: flex;
+    width: 86vw;
+    margin: 4vw;
+    margin-bottom: 6vw;
+    padding: 5vw;
+    padding-right: 0;
+    border-radius: 3.5vw;
+    border: solid #2d9ce5 2px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    overflow-x: auto;
+  }
+  .text{
+    width: 90vw;
+    height: fit-content;
+    
+  }
+
+  .content {
+    display: flex;
+    width: 96.5vw;
+    height: fit-content;
+    margin-left: 5vw;
+    margin-bottom: 1.75vw;
+    flex-direction: column;
+    margin-top: 3vw;
+}
+p1{
+  font-family: "HelveticaNeue";
+  font-size: 10.5vw;
+  line-height: 12.5vw;
+}
+p2{
+  font-size: 4vw;
+  line-height: 6vw;
+}
+  .box1{
+    height: fit-content;
+  }
+  .content1 {
+    width: 90vw;
+    margin-top: 7vw;
+    height: 100vw;
+    margin-bottom: 10vw;
+}
+.box {
+  display: flex;
+  justify-content: center;
+}
+.img42{
+  width: 17vw;
+  margin: 0;
+  margin-left: 4vw;
+  margin-top: 4vw;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+width: 85vw;
+height: 10vw;
+font-size: 5vw;
+line-height: 4vw;
+}
 }

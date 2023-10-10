@@ -1,6 +1,130 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  .content{
-    position: absolute;
-    bottom: 0;
+  .content {
+    display: flex;
+    flex-direction: row;
+    width: 96vw;
+    height: fit-content;
+    margin-left: 1.75vw;
+    margin-bottom: 2.5vw;
+    flex-wrap: wrap;
+}
+
+  a {
+    font-family: "HelveticaNeue";
+    font-size: 3vw;
+    color: #2d9ce5;
+    transition: 0.4s;
+    text-decoration: none;
+    margin-bottom: 2vw;
   }
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    width: 93vw;
+    margin-top: 3.5vw;
+    margin-left: 3.5vw;
+    margin-right: 3.5vw;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .img32,
+  .img33,
+  .img34,
+  .img35,
+  .img36,
+  .img37 {
+    display: flex;
+    justify-content: space-between;
+    width: 45vw;
+    padding-bottom: 3vw;
+}
+.box1 {
+  display: flex;
+  justify-content: space-between;
+  width: 45vw;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  margin-right: 3vw;
+}
+.box2 {
+  display: flex;
+  justify-content: space-between;
+  width: 45vw;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.img38 {
+  padding-top: 2vw;
+  width: 35vw;
+  height: 15vw;
+}
+  
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 428px) and (orientation: portrait) {
+  
+  
+  a {
+    font-family: "HelveticaNeue";
+    font-size: 5vw;
+    color: #2d9ce5;
+    transition: 0.4s;
+    text-decoration: none;
+    margin-right: 5vw;
+  }
+ 
+  .menu {
+    display: flex;
+    width: 86vw;
+    margin: 4vw;
+    padding: 5vw;
+    padding-right: 0;
+    border-radius: 3.5vw;
+    border: solid #2d9ce5 2px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    overflow-x: auto;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 96vw;
+    height: fit-content;
+    margin-left: 1.75vw;
+    margin-bottom: 2.5vw;
+    flex-wrap: nowrap;
+}
+  .img32,
+  .img33,
+  .img34,
+  .img35,
+  .img36,
+  .img37 {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    padding-bottom: 3vw;
+}
+.box1 {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  margin-right: 3vw;
+}
+.box2 {
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  margin-right: 3vw;
+}
+.img38 {
+  padding-top: 2vw;
+  width: 38vw;
+  height: 17vw;
+  margin-bottom: 4vw;
+}
 }

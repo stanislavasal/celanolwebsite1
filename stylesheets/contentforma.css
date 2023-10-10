@@ -106,6 +106,10 @@ p1{
 .box{
   display: flex;
 }
+.box1{
+  width: 50vw;
+  height: 60vw;
+}
 p77 {
   font-family: "HelveticaNeue";
   color: #2D9CE5;
