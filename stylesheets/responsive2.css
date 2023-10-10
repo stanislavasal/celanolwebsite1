@@ -111,6 +111,7 @@
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 428px) and (orientation: portrait) {
+  
   .content1{
     position: absolute;
     height: fit-content;
